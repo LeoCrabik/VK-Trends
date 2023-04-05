@@ -3,5 +3,4 @@ from .views import *
 
 urlpatterns = [
     path('', index),
-    path('<slug:groupid>', group)
 ]

@@ -1,21 +1,23 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Rubik', sans-serif;
+    color: #f2f2f2;
 }
 
 body{
     padding:0;
     margin:0;
-    background-color: #8fdae7;
+    background: linear-gradient(#65ccb8, #57ba98);
+    background-attachment: fixed;
 }
 
 .top-bar{
     z-index: 2;
     width: 100%;
-    background-color: #5eb1bf;
-    box-shadow: 0 0 8px 0 rgba(0,0,0,0.3);
-    position: relative;
+    background-color: #5CC1A5;
+    position: fixed;
 
 }
 
@@ -27,7 +29,7 @@ body{
 
 .logo-div:hover{
     cursor: pointer;
-    background-color: #448c99;
+    background-color: #3b945e;
     transition: .2s;
 
 }
@@ -39,7 +41,7 @@ body{
     font-size: 30px;
     font-weight: bold;
     vertical-align: middle;
-    color: #cdedf6;
+    color: #f2f2f2;
     text-decoration: none;
     line-height:50px;
     vertical-align:middle;
@@ -52,7 +54,7 @@ body{
     padding:0;
     width: 100%;
     height: 500px;
-    background-color: #5eb1bf;
+    background: none;
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -62,19 +64,18 @@ body{
 }
 
 .main-description{
-    margin-top: 50px;
     width:40%;
     height: 300px;
     text-align: center;
     display: flex;
     align-items: center;
-    width: 400px;
+    width: 500px;
 }
 
 .main-description span{
     width:100%;
     font-size: 46px;
-    color: #cdedf6;
+    color: #f2f2f2;
     text-align: center;
     padding-bottom:40px;
 
@@ -86,7 +87,7 @@ body{
     display: flex;
     align-items: center;
     -webkit-border-radius: 10px;
-    background-color: #8fdae7;
+    background-color: rgba(255, 255, 255, .2);
 }
 
 .input-div:hover{
@@ -102,7 +103,7 @@ form {
     width: 100%;
   }
 
-.input-div input{
+.input-div input {
     margin: auto;
     padding-left: 20px;
     padding-left: 20px;
@@ -115,11 +116,11 @@ form {
     justify-content: center;
     line-height: 100%;
     font-size: 20px;
-    color:#bde5ec;
+    color: #f2f2f2;
 }
 
-.input-div ::-webkit-input-placeholder{
-    color:#bde5ec;
+.input-div ::-webkit-input-placeholder {
+    color: #f2f2f2;
 }
 
 button {
@@ -135,10 +136,82 @@ button:before {
     content: "\f002";
     font-family: FontAwesome;
     font-size: 16px;
-    color: #F9F0DA;
+    color: #f2f2f2;
   }
 
-button:hover{
-    background: #5eb1bf;
+button:hover {
+    background: #57ba98;
     transition: .3s;
+}
+
+
+.trend-div {
+    height: 400px;
+    width: 100%;
+    background-color: #3b945e;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background: none;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    z-index: 1;
+    flex-direction: column;
+}
+
+.trend-block {
+    outline: 1px solid;
+    outline-color: #80D1BC;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0,0,.2);
+    -webkit-border-radius: 10px;
+    animation: div-anim 2s ease-in-out;
+}
+
+
+@keyframes div-anim {
+    0% {
+        width: 5px;
+        overflow-y: hidden;
+
+    }
+    50% {
+        width: 300px;
+
+    }
+    100% {
+        overflow-y: scroll;
+
+    }
+
+}
+
+
+.trend-block span {
+    width: 100%;
+    margin: auto;
+    font-size: 25px;
+    color: #f2f2f2;
+    text-align: center;
+    padding-bottom: 40px;
+    opacity: 0;
+    animation: text-anim .3s forwards;
+    animation-delay: 1s;
+}
+
+@keyframes text-anim {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }

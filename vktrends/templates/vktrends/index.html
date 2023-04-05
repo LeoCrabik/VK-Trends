@@ -2,18 +2,19 @@
 
 {% block content %}
 
-
 <div class="main">
     <div class="main-description">
-        <span>Узнайте, что ищут пользователи со всего света</span>
+        <span>Анализ сообщества в один клик</span>
     </div>
     <div class="input-div">
         <form action="" method="POST">
             {% csrf_token %}
-            <input type="text" placeholder="Введите URL-адрес или название группы вк" name="group_name">
+            <input type="text" placeholder= {% if group_name %} {{group_name}} {% else %} "Введите URL-адрес или название группы вк" {% endif %} name="group_name">
             <button type="submit"></button>
         </form>
 
     </div>
-</div>
+</div> 
+
 {% endblock %}
+

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58927e32-3fa2-4b9c-8fb1-b6668893422c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vktrends copy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/static/css/error404.css" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/static/css/error404.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/static/css/group.css" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/static/css/group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/autocomplete.css" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/autocomplete.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/changelists.css" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/changelists.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/dark_mode.css" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/dark_mode.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/forms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/nav_sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/nav_sidebar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/responsive_rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/responsive_rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/vendor/select2/select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/vendor/select2/select2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/vendor/select2/select2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/vendor/select2/select2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/widgets.css" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/css/widgets.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/fonts/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/fonts/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/calendar-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/calendar-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-addlink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-addlink.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-alert.svg" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-alert.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-calendar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-changelink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-changelink.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-clock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-clock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-deletelink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-deletelink.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-no.svg" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-no.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-unknown-alt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-unknown-alt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-unknown.svg" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-unknown.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-viewlink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-viewlink.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-yes.svg" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/icon-yes.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/inline-delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/inline-delete.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/selector-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/selector-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/sorting-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/sorting-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/tooltag-add.svg" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/tooltag-add.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/tooltag-arrowright.svg" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/img/tooltag-arrowright.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/SelectBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/SelectBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/SelectFilter2.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/SelectFilter2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/autocomplete.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/autocomplete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/cancel.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/cancel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/change_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/change_form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/collapse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/inlines.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/inlines.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/jquery.init.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/jquery.init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/nav_sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/nav_sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/popup_response.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/popup_response.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/prepopulate.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/prepopulate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/prepopulate_init.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/prepopulate_init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/urlify.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/urlify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/jquery/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/af.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/af.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/bn.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/bn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/bs.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/bs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/dsb.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/dsb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/hsb.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/hsb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/hy.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/hy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/is.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/ka.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/ka.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/km.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/ne.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/ne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/ps.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/ps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/sl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/sq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/th.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/tk.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/tk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/select2.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/select2.full.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/xregexp/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/css/error404.css" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/css/error404.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/css/group.css" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/css/group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/staticfiles/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/staticfiles/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/templates/vktrends/group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/templates/vktrends/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/templates/vktrends/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/trendsfinder/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/trendsfinder/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/trendsfinder/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/trendsfinder/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/vktrends/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/vktrends/settings.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Mgvjc8F7JumD7ax4hLwB3Z9GZf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/User/Desktop/VK-Trends",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="parser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VK-Trends" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vktrends/trendsfinder" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vktrends/trendsfinder/parser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.parser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58927e32-3fa2-4b9c-8fb1-b6668893422c" name="Changes" comment="" />
+      <created>1678202180920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678202180920</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/vktrends/trendsfinder/urls.py</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

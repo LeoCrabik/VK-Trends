@@ -1,0 +1,14 @@
+{% extends 'vktrends/index.html' %}
+
+
+{% block trends %}
+<div class="trend-div">
+    <div class="trend-block">
+        <span>
+            {% for values in data %}
+                <p>{{values}}</p>
+            {% endfor %}
+        </span>
+    </div>
+</div>
+{% endblock %}
