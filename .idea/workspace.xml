@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58927e32-3fa2-4b9c-8fb1-b6668893422c" name="Changes" comment="" />
+    <list default="true" id="58927e32-3fa2-4b9c-8fb1-b6668893422c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/trendsfinder/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/trendsfinder/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/trendsfinder/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/trendsfinder/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vktrends/vktrends/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/vktrends/vktrends/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

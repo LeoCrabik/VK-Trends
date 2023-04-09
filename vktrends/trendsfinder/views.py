@@ -2,6 +2,7 @@ from django.http import HttpResponse, HttpResponseNotFound, Http404, HttpRespons
 from django.shortcuts import render
 from trendsfinder.text_analizer import TopicsFinder
 
+
 def index(request):
     if request.method == 'GET':
         return render(request=request, template_name='vktrends/index.html')
@@ -15,12 +16,14 @@ def index(request):
             print('Ошибка')
             raise Http404()
 
-        topics = TopicsFinder(domain=group_id)
-        content = topics.get_content()
-        print(content)
+        try:
+            topics = TopicsFinder(domain=group_id)
+            content = topics.get_content()
+            print(content)
 
-        return render(request=request, template_name='vktrends/trends.html', context=content)
-
+            return render(request=request, template_name='vktrends/trends.html', context=content)
+        except Exception as e:
+            raise Http404()
 
 def page_not_found(request, exception):
     return render(request=request, template_name='vktrends/error404.html')
