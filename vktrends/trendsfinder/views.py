@@ -1,6 +1,6 @@
 from django.http import HttpResponse, HttpResponseNotFound, Http404, HttpResponseRedirect
 from django.shortcuts import render
-import trendsfinder.text_analizer as Analizer
+from trendsfinder.text_analizer import TopicsFinder
 
 def index(request):
     if request.method == 'GET':
@@ -15,15 +15,10 @@ def index(request):
             print('Ошибка')
             raise Http404()
 
-        try:
-            data = Analizer.get_trends(domain=group_id)
-        except:
-            return render(request=request, template_name='vktrends/index.html')
+        topics = TopicsFinder(domain=group_id)
+        content = topics.get_content()
+        print(content)
 
-        content = {
-            'data': data,
-            'group_name': group_id,
-        }
         return render(request=request, template_name='vktrends/trends.html', context=content)
 
 

@@ -1,102 +1,105 @@
 import nltk
-from nltk.tokenize import RegexpTokenizer
-from nltk.corpus import stopwords
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import sklearn
 import re
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import LatentDirichletAllocation
 from trendsfinder.parser import Data as dt
 from trendsfinder.news_creator import OpenAI
-from trendsfinder.config import Api_key
+from trendsfinder.config import *
 import pymorphy2
 
-def get_trends(domain):
-    Data = dt(domain=domain)
-    df = Data.get_data()
-    group_name = Data.get_group_name()
 
-    def remove_links(tweet):
+
+class TopicsFinder:
+    def __init__(self, domain):
+        self.domain = domain
+        Data = dt(domain=domain)
+        self.df = Data.get_data()
+        self.group_name = Data.get_group_name()
+        self.df['cleaned_text'] = [self.clean_tweet(str(text)) for text in self.df.text]
+        # the vectorizer object will be used to transform text to vector form
+        self.vectorizer = CountVectorizer(token_pattern='\w+|\$[\d\.]+|\S+')
+        # apply transformation
+        try:
+            tf = self.vectorizer.fit_transform(self.df['cleaned_text'].apply(lambda x: np.str_(x)))
+        except:
+            tf = self.vectorizer.fit_transform(self.df['cleaned_text'])
+        # tf_feature_names tells us what word each column in the matric represents
+        self.tf_feature_names = self.vectorizer.get_feature_names_out()
+
+        self.number_of_topics = 10
+
+        self.model = LatentDirichletAllocation(n_components=self.number_of_topics, random_state=0)
+
+        self.model.fit(tf)
+
+        self.no_top_words = 10
+        self.topics = (self.display_topics())
+        # self.topic_words = self.topics['Topic 0 words']
+        # self.words_line = (", ".join(list(self.topic_words)))
+        # self.topic_weights = self.topics['Topic 0 weights']
+        # self.trends_dict = {'Тема': 'Вес'}
+        # for word, weight in zip(self.topic_words, self.topic_weights):
+        #     self.trends_dict[word] = weight
+        # print(self.words_line)
+        # for item in self.trends_dict.items():
+        #     print(item)
+        words_list = []
+        for n in range(0, 10):
+            topic_words = self.topics['Topic %d words' % n]
+            words_list += (list(topic_words))
+        # print(words_list)
+        counted_dict = {i: words_list.count(i) for i in words_list};
+        # print(counted_dict)
+        self.sorted_dict_ = sorted(counted_dict.items(), key=lambda x: x[1], reverse=True)
+        print(self.sorted_dict_)
+        self.topic_words_ = [item[0] for item in self.sorted_dict_]
+        print(self.topic_words_)
+        print(' '.join(self.topic_words_))
+        self.category = OpenAI(self.topic_words_, Api_key).news()
+
+
+    def clean_tweet(self, tweet):
         # Takes a string and removes web links from it
         tweet = re.sub(r'http\S+', '', tweet)  # remove http links
         tweet = re.sub(r'bit.ly/\S+', '', tweet)  # remove bit.ly links
         tweet = tweet.strip('[link]')  # remove [links]
-        return tweet
 
-    my_stopwords = nltk.corpus.stopwords.words('russian')
-    word_rooter = nltk.stem.snowball.SnowballStemmer('russian', ignore_stopwords=False).stem
-
-    # cleaning master function
-    def clean_tweet(tweet, bigrams=False):
-        # tweet = remove_users(tweet)
-        tweet = remove_links(tweet)
-        tweet = tweet.lower()  # lower case
+        my_stopwords = nltk.corpus.stopwords.words('russian')+Stop_list
         tweet = re.sub('[^A-Za-z0-9А-Яа-я]+', ' ', tweet)  # strip punctuation
         tweet = re.sub('\s+', ' ', tweet)  # remove double spacing
         tweet = re.sub('([0-9]+)', '', tweet)  # remove numbers
-        tweet_token_list = [word for word in tweet.split(' ') if word not in my_stopwords]  # remove stopwords
+        tweet = tweet.lower()
+        # print(tweet)
 
+        # print(tweet_token_list)
         morph = pymorphy2.MorphAnalyzer()
-        new_list = []
-        for word in tweet_token_list:
-            p = morph.parse(word)[0]
-            root = p.normal_form
-            new_list.append(root)
-        tweet_token_list = new_list
-        if bigrams:
-            tweet_token_list = tweet_token_list + [tweet_token_list[i] + '_' + tweet_token_list[i + 1] for i in
-                                                   range(len(tweet_token_list) - 1)]
+        tweet_token_list = [morph.parse(word)[0].normal_form for word in tweet.split(' ')]
+        tweet_token_list = [word for word in tweet_token_list if word not in my_stopwords]  # remove stopwords
+
         tweet = ' '.join(tweet_token_list)
+
         return tweet
 
-    df['cleaned_text'] = [clean_tweet(str(text)) for text in df.text]
-    print(df['cleaned_text'])
-
-    # the vectorizer object will be used to transform text to vector form
-    vectorizer = CountVectorizer(token_pattern='\w+|\$[\d\.]+|\S+')
-    # apply transformation
-    try:
-        tf = vectorizer.fit_transform(df['cleaned_text'].apply(lambda x: np.str_(x)))
-    except:
-        tf = vectorizer.fit_transform(df['cleaned_text'])
-    # tf_feature_names tells us what word each column in the matric represents
-    tf_feature_names = vectorizer.get_feature_names_out()
-
-    number_of_topics = 10
-
-    model = LatentDirichletAllocation(n_components=number_of_topics, random_state=0)
-
-    model.fit(tf)
-
-    def display_topics(model, feature_names, no_top_words):
+    def display_topics(self):
         topic_dict = {}
-        for topic_idx, topic in enumerate(model.components_):
-            topic_dict["Topic %d words" % (topic_idx)] = ['{}'.format(feature_names[i]) for i in
-                                                          topic.argsort()[:-no_top_words - 1:-1]]
+        for topic_idx, topic in enumerate(self.model.components_):
+            topic_dict["Topic %d words" % (topic_idx)] = ['{}'.format(self.tf_feature_names[i]) for i in
+                                                          topic.argsort()[:-self.no_top_words - 1:-1]]
             topic_dict["Topic %d weights" % (topic_idx)] = ['{:.1f}'.format(topic[i]) for i in
-                                                            topic.argsort()[:-no_top_words - 1:-1]]
+                                                            topic.argsort()[:-self.no_top_words - 1:-1]]
         return pd.DataFrame(topic_dict)
 
-    no_top_words = 30
-    topics = (display_topics(model, tf_feature_names, no_top_words))
-    topic_words = topics['Topic 0 words']
-    words_line = (", ".join(list(topic_words)))
-    topic_weights = topics['Topic 0 weights']
-    trends_dict = {'Тема': 'Вес'}
-    for word, weight in zip(topic_words[2:], topic_weights[2:]):
-        trends_dict[word] = weight
-    print(words_line)
-    model = OpenAI(
-        api_key=Api_key,
-        group_name=group_name,
-        trends_list=words_line,
-    )
-    print(model.news())
-    return topic_words
+    def get_content(self):
+
+        return {
+            'data': self.topic_words_,
+            'group_name': self.domain,
+            'category': self.category
+        }
 
 
 if __name__ == "__main__":
-    get_trends(domain='ikakprosto')
+    topics = TopicsFinder(domain='ikakprosto')
+

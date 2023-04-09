@@ -2,11 +2,10 @@ import openai
 
 
 class OpenAI:
-    def __init__(self, group_name, trends_list, api_key):
+    def __init__(self, trends_list, api_key):
         self.api_key = api_key
-        self.group_name = group_name
         self.trends_list = trends_list
-        self.prompt = 'Представь, что ты создатель VK группы "{}" и придумай серьёзную, но смешную сатирическую новость от имени создателя группы, содержащую слова {}'.format(self.group_name, self.trends_list)
+        self.prompt = 'Представь, что ты программа, которая получает набор слов и генерирует на их основе категорию, характеризующий этот спискок. Выдай категорию на слова: {}.'.format(self.trends_list)
     
     def news(self):
         openai.api_key = self.api_key
@@ -25,5 +24,6 @@ class OpenAI:
 
 
 if __name__ == "__main__":
-    model = OpenAI(api_key = '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', group_name='Стас Ай, Как Просто!', trends_list='смотреть, блять, эфиры, первый, phone, новый, обзор, такое, фильмы, спасибо, тв, прости, доносить, зарево, ленина, документальные, делал, гасить, изменить, инету')
+    trends_list = 'тоталитарный северный стас лебедев корея история чеченский ужасающий live питер сажать гаага посадить путин трамп артемий закон иноагент рф фильм забастовка wilberries тарантино банкротство банк либерал соловьёв коммунист владимир а нтонов порешать рыночка социализм выступить встретить впервые хейтер всякий студент живой пообщаться татарский владлен оружие теракт ядерный ответ старик белоруссия шария чзп кремль яндекс интервью забыть назвать выпуск подписаться предатель проект родина уйти эфир блядь die российский изменить псевдокоммунист прямо пропагандон инет волноваться'
+    model = OpenAI(api_key = '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', group_name='Стас Ай, Как Просто!', trends_list=trends_list)
     print(model.news())
