@@ -1,0 +1,25 @@
+
+
+.error-div{
+	width: 100%;
+	height: 100%;
+	padding-top: 200px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.error-div p {
+    font-size: 70px;
+    color: #f2f2f2;
+}
+
+
+.return-div{
+    justify-content: center;
+    text-align: center;
+}
+
+
+.return-div a{
+    font-size: 22px;
+}

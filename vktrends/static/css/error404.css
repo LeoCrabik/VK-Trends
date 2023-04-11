@@ -1,0 +1,11 @@
+.error-div{
+	width: 100%;
+	height: 100%;
+	padding-top: 200px;
+	text-align: center;
+}
+
+.error-div p {
+    font-size: 70px;
+    color: #f2f2f2;
+}
